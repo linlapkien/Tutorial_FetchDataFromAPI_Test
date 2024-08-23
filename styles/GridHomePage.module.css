@@ -1,0 +1,68 @@
+/* --------------text color------------ */
+.text_color_component1 {
+  max-width: 250px;
+  white-space: normal; /* Allows text to wrap onto the next line */
+  word-break: break-word; /* Ensures words break properly */
+  font-size: 10px;
+  background: -webkit-linear-gradient(#00f725, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_color_component2 {
+  max-width: 250px;
+  white-space: normal; /* Allows text to wrap onto the next line */
+  word-break: break-word; /* Ensures words break properly */
+  font-size: 10px;
+  background: -webkit-linear-gradient(#2607f4, #eb4ef4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_color_component3 {
+  max-width: 250px;
+  white-space: normal; /* Allows text to wrap onto the next line */
+  word-break: break-word; /* Ensures words break properly */
+  font-size: 10px;
+  background: -webkit-linear-gradient(#08e2d7, #232320);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_color_component4 {
+  max-width: 250px;
+  white-space: normal; /* Allows text to wrap onto the next line */
+  word-break: break-word; /* Ensures words break properly */
+  font-size: 10px;
+  background: -webkit-linear-gradient(#ff0e0e, #2cd5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ------------------------------------ */
+.grid_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  flex-direction: column; /* Items will be stacked vertically */
+  align-items: center; /* Center items horizontally in the container */
+  justify-content: center; /* Center items vertically in the container */
+  height: 100vh; /* Optional: Full viewport height */
+  grid-gap: 10px; /* Space between items */
+  padding: 10px;
+}
+
+.grid_item {
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #00ff26;
+  width: 80%; /* Optional: Adjust item width */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(243, 17, 171, 0.1);
+}
+
+@media (min-width: 768px) {
+  .grid_container {
+    flex-direction: row; /* Switch to horizontal layout on larger screens */
+    justify-content: space-around;
+  }
+}

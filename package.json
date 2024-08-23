@@ -12,6 +12,8 @@
     "@module-federation/nextjs-mf": "^8.4.10",
     "next": "14.2.5",
     "react": "^18",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18"
   },
   "devDependencies": {
